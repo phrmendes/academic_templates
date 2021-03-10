@@ -1,0 +1,36 @@
+\input{pretextual.tex}
+
+\title{Título \vspace{0.5cm}}
+\posttitle{\\ \Large{\textbf{Subtítulo}}}
+
+\author{Autor}
+
+\date{\vspace{-2cm}} %\vspace{-5ex}
+
+\begin{document}
+    \thanksmarkseries{arabic}
+    \maketitle
+    \setlength{\parindent}{1.25cm} % Tamanho do parágrafo
+    \onehalfspacing   % Espaçamento de 1,5
+    
+    \begin{abstract}
+        \normalsize
+        \singlespacing
+        \noindent \lipsum[1]  
+        \vspace{0.5cm}
+        
+        \noindent \textbf{Palavras-chave:} Lorem, ipsum, dolor.
+    \end{abstract}
+    
+    \section*{Introdução}    
+    \input{sessoes/1_introducao}
+    \section*{Desenvolvimento}
+    \input{sessoes/2_desenvolvimento}
+    \section*{Conclusão}
+    \input{sessoes/3_conclusao}
+
+    \small
+    
+    % Referências
+    \bibliography{referencias_ic.bib}
+\end{document}

@@ -1,0 +1,53 @@
+---
+output: pdf_document
+---
+
+```{=tex}
+% Mudar margens para citação direta
+\newenvironment{changemargin}[2]{%
+    \begin{list}{}{%
+        \setlength{\topsep}{0pt}%
+        \setlength{\leftmargin}{#1}%
+        \setlength{\rightmargin}{#2}%
+        \setlength{\listparindent}{\parindent}%
+        \setlength{\itemindent}{\parindent}%
+        \setlength{\parsep}{\parskip}%
+    }%
+\item[]}{\end{list}}
+
+\begin{figure}
+    \includegraphics[width=15cm]{imagens/logo.png}
+    \label{fig:ufabc}
+    \vspace{2cm}
+\end{figure}
+   
+\begin{center}
+    \Large \textbf{Título} \vspace{0.5cm}
+\end{center}
+
+\begin{changemargin}{10cm}{0cm}
+    \vspace{1.5cm}
+    \noindent Relatório ou dissertação. 
+    \vspace{3.5cm}
+\end{changemargin}
+
+\begin{onehalfspace}
+\noindent
+\textbf{Nome do aluno:} \\
+\textbf{Assinatura do aluno:} \\
+\textbf{Nome do orientador:} \\
+\textbf{Assinatura do orientador:} \\
+\textbf{Palavras-chave do projeto:} \\
+\textbf{Área do conhecimento do projeto:} \\
+\textbf{Bolsista:} \\
+\end{onehalfspace}
+\begin{center}
+    \onehalfspacing
+    São Bernardo
+
+    \today
+\end{center}
+
+\date{\vspace{-2cm}} %\vspace{-5ex}
+\newpage
+```
