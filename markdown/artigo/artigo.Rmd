@@ -26,9 +26,9 @@ geometry:
 - bottom=2.5cm
 - left=2.5cm
 - right=2.5cm
-bibliography: ./referencias/referencias.bib
+bibliography: references.bib
 reference-section-title: Referências
-csl: ./referencias/abnt.csl
+csl: abnt.csl
 nocite: null
 lang: pt-BR
 header-includes:
