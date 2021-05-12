@@ -2,19 +2,24 @@
 title: Título
 subtitle: Subtítulo
 author: Autor
-date: \today
-theme: default
-colortheme: beaver
-fonttheme: structurebold
-classoption: "aspectratio=169"
+date: "`r format(Sys.time(), '%d %B de %Y')`"
+output:
+  beamer_presentation:
+    theme: metropolis
+    latex_engine: xelatex
+    slide_level: 2
+    toc: yes
+classoption: aspectratio=169
 fontsize: 14pt
-bibliography: [./slides.bib]
+bibliography: null
+nocite: null
 reference-section-title: Referências
-csl: [./abnt.csl]
+csl: abnt.csl
 lang: pt-BR
 header-includes:
   - \usepackage{setspace}
   - \usepackage{ragged2e}
+  - \hypersetup{colorlinks,citecolor=orange,filecolor=red,linkcolor=brown,urlcolor=blue}
 ---
 
 # Lorem ipsum dolor sit amet

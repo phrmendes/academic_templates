@@ -16,7 +16,7 @@ output: pdf_document
 \item[]}{\end{list}}
 
 \begin{figure}
-    \includegraphics[width=15cm]{imagens/logo.png}
+    \includegraphics[width=15cm]{images/logo.png}
     \label{fig:ufabc}
     \vspace{2cm}
 \end{figure}

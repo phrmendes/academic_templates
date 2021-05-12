@@ -3,8 +3,8 @@ output:
   pdf_document:
     fig_caption: yes
     number_sections: yes
-bibliography: ./referencias/referencias.bib
-csl: ./referencias/abnt.csl
+bibliography: referencias.bib
+csl: abnt.csl
 fontfamily: times
 fontsize: 12pt
 geometry:
@@ -17,15 +17,18 @@ header-includes:
 - \usepackage{ragged2e}
 - \usepackage{indentfirst}
 - \usepackage{fancyhdr}
-- \usepackage{placeins}
 - \usepackage{microtype}
 - \usepackage{chngcntr}
+- \usepackage{booktabs}
+- \usepackage[justification=centering]{caption}
+- \usepackage{float}
+- \usepackage{multirow}
 indent: no
 reference-section-title: Referências
 nocite: null
 lang: pt-BR
+link-citations: yes
 ---
-
 <!--- Lista contínua de tabelas e imagens --->
 
 ```{=tex}
@@ -51,12 +54,12 @@ knitr::opts_chunk$set(echo=FALSE, error=FALSE, warning=FALSE, message=FALSE)
 
 <!-- Capa --->
 
-```{r child = 'sessoes/capa.Rmd'}
+```{r child = 'capa.Rmd'}
 ```
 
 <!-- Resumo --->
 
-```{r child = 'sessoes/0_resumo.Rmd'}
+```{r child = '0_resumo.Rmd'}
 ```
 
 <!--- Lista de figuras --->
@@ -99,11 +102,10 @@ knitr::opts_chunk$set(echo=FALSE, error=FALSE, warning=FALSE, message=FALSE)
 ```{=tex}
 \thispagestyle{plain}
 \pagenumbering{arabic}
-\FloatBarrier
 \fancyhead[C]{Introdução}
 ```
 
-```{r child = 'sessoes/1_introducao.Rmd'}
+```{r child = '1_introducao.Rmd'}
 ```
 
 # Desenvolvimento
@@ -112,11 +114,10 @@ knitr::opts_chunk$set(echo=FALSE, error=FALSE, warning=FALSE, message=FALSE)
 
 ```{=tex}
 \thispagestyle{plain}
-\FloatBarrier
 \fancyhead[C]{Desenvolvimento}
 ```
 
-```{r child = 'sessoes/2_desenvolvimento.Rmd'}
+```{r child = '2_desenvolvimento.Rmd'}
 ```
 
 # Conclusão {-}
@@ -124,11 +125,10 @@ knitr::opts_chunk$set(echo=FALSE, error=FALSE, warning=FALSE, message=FALSE)
 <!--- Cabeçalho--->
 ```{=tex}
 \thispagestyle{plain}
-\FloatBarrier
 \fancyhead[C]{Conclusão}
 ```
 
-```{r child = 'sessoes/3_conclusao.Rmd'}
+```{r child = '3_conclusao.Rmd'}
 ```
 
 <!-- Parágrafos e espaçamento (referências) --->
