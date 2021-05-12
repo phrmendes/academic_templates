@@ -4,7 +4,7 @@ output:
     fig_caption: yes
     number_sections: yes
 title: |
-  \LARGE
+  \Large
   
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 subtitle: Artigo
@@ -36,10 +36,12 @@ header-includes:
 - \usepackage{ragged2e}
 - \usepackage{indentfirst}
 - \usepackage{abstract}
-- \usepackage{fancyhdr}
-- \usepackage{placeins}
 - \usepackage{microtype}
 - \usepackage{chngcntr}
+- \usepackage[justification=centering]{caption}
+- \usepackage{float}
+- \usepackage{booktabs}
+- \usepackage{multirow}
 - \renewcommand{\abstractname}{Resumo}
 - \setkomafont{disposition}{\bfseries}
 ---
@@ -53,7 +55,6 @@ header-includes:
 \setlength{\parskip}{0.1cm}
 \FloatBarrier
 ```
-
 <!-- Remover tudo menos os resultados dos chunks --->
 
 ```{r, echo=FALSE}
@@ -74,10 +75,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 \vspace{0.5cm}
 \centering
 ```
+Fonte: [@acemoglu2004]
 
-Fonte: Autor
-
-![Imagem de uma cidade](./imagens/imagem.png){width="60%"}
+![Imagem de uma cidade](./images/imagem.png){width="60%"}
 
 ```{=tex}
 \justify
@@ -96,8 +96,6 @@ Fonte: Autor
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum [@hoffmann2010].
 
 # Conclusão
-
-\setlength{\parindent}{1.25cm}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum [@portugal2020].
 
