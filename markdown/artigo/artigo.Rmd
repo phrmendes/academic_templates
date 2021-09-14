@@ -42,6 +42,7 @@ header-includes:
 - \usepackage{float}
 - \usepackage{booktabs}
 - \usepackage{multirow}
+- \usepackage{placeins}
 - \renewcommand{\abstractname}{Resumo}
 - \setkomafont{disposition}{\bfseries}
 ---

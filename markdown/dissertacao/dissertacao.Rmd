@@ -20,9 +20,13 @@ header-includes:
 - \usepackage{microtype}
 - \usepackage{chngcntr}
 - \usepackage{booktabs}
-- \usepackage[justification=centering]{caption}
+- \usepackage{graphicx}
+- \usepackage[justification = centering, tableposition = top, font = small]{caption}
+- \usepackage[position = top]{subfig}
 - \usepackage{float}
 - \usepackage{multirow}
+- \usepackage{lipsum}
+- \captionsetup[subfigure]{font = scriptsize, labelfont = scriptsize}
 indent: no
 reference-section-title: Referências
 nocite: null
