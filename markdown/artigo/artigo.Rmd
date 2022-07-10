@@ -19,7 +19,6 @@ abstract: |
   \vspace{0.5cm}
   
   **Palavras-chave**: Lorem, Ipsum.
-fontfamily: times
 fontsize: 12pt
 geometry:
 - top=2.5cm

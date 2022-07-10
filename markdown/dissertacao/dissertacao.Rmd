@@ -5,7 +5,6 @@ output:
     number_sections: yes
 bibliography: referencias.bib
 csl: abnt.csl
-fontfamily: times
 fontsize: 12pt
 geometry:
 - top=2.5cm
