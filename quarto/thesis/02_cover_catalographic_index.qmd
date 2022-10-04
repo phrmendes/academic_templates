@@ -1,0 +1,54 @@
+---
+output: pdf_document
+---
+
+```{=tex}
+{
+  \thispagestyle{plain}
+  \centering
+
+  \authorName
+  
+  \vfill
+  
+  {
+    \fontfamily{cmss}
+    \selectfont
+    \large
+    \textbf{\thesisTitle}
+  }
+
+  \vfill
+  
+  \fontfamily{lmr}
+  \selectfont
+  
+  \begin{adjustwidth}{10cm}{0cm}
+
+  \courseDetails
+  
+  \end{adjustwidth}
+
+  \vfill
+  
+  \begin{center}
+    \ufabc \\
+    \cecs \\
+    \economics
+
+    \vspace{0.5cm}
+
+    Orientador: Prof. Dr. \advisor
+    
+    \vspace{0.5cm}
+    
+    \cityDate
+  \end{center}
+}
+
+% \newpage
+
+% INSERIR FICHA CATALOGRÁFICA AQUI
+
+\jumpTwoPages
+```

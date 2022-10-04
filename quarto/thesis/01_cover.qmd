@@ -1,0 +1,46 @@
+---
+output: pdf_document
+---
+
+```{=tex}
+{
+  \thispagestyle{plain}
+  \centering
+  \fontfamily{cmss}
+  \selectfont
+  
+  \includegraphics[width=2\textwidth]{images/logo_ufabc.png}
+  
+  \vspace{0.5cm}
+  
+  {
+    \large
+    \ufabc \\
+    \cecs \\
+    \economics
+  }
+  
+  \vfill
+  
+  {
+    \LARGE
+    \textbf{\thesisTitle}
+  }
+  
+  \vfill
+  
+  {
+    \large
+    \textbf{\authorName}
+  }
+  
+  \vfill
+  
+  \begin{center}
+    \textbf{Número de ordem: XXXXX} \\
+    \textbf{\cityDate}
+  \end{center}
+}
+
+\jumpTwoPages
+```

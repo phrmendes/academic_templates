@@ -1,0 +1,74 @@
+---
+output: pdf_document
+---
+
+```{=tex}
+  \thispagestyle{plain}
+  \centering
+
+  \authorName
+  
+  \vfill
+  
+  {
+    \fontfamily{cmss}
+    \selectfont
+    \large
+    \textbf{\thesisTitle}
+  }
+
+  \vfill
+  
+  \fontfamily{lmr}
+  \selectfont
+  
+  \begin{adjustwidth}{10cm}{0cm}
+
+  \courseDetails
+
+  \end{adjustwidth}
+
+  \vfill
+
+  \justify{Trabalho aprovado. \cityDate:}
+
+  \vfill
+
+  \begin{center}
+  
+  {
+    \rule{6.5cm}{0.1mm}
+    
+    \textbf{\advisor}
+    
+    Orientador
+  }
+
+  {
+    \rule{6.5cm}{0.1mm}
+
+    \textbf{Nome do professor}
+    
+    Convidado 1
+  }
+
+  {
+    \rule{6.5cm}{0.1mm}
+    
+    \textbf{Nome do professor}
+    
+    Convidado 2
+  }
+
+  {
+    \rule{6.5cm}{0.1mm}
+    
+    \textbf{Nome do professor}
+    
+    Convidado 3 
+  }
+
+  \end{center}
+
+  \jumpTwoPages
+```

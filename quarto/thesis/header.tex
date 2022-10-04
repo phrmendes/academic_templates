@@ -1,0 +1,134 @@
+% packages
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{setspace}
+\usepackage{ragged2e}
+\usepackage{indentfirst}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+\usepackage{chngcntr}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{tocloft}
+\usepackage{bold-extra}
+\usepackage{emptypage}
+\usepackage{changepage}
+
+% indentation macros
+\newcommand{\nid}{\noindent}
+\newcommand{\zeroIndent}{\setlength{\parindent}{0cm}}
+\newcommand{\oneHalfIndent}{\setlength{\parindent}{1.25cm}}
+
+% add dots to toc
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+% continuous list (tables and images)
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+
+% paragraph settings
+\oneHalfIndent
+\setlength{\parskip}{0.1cm}
+\onehalfspacing
+\frenchspacing
+\justifying
+\pagenumbering{gobble}
+
+% headers
+\pagestyle{fancy}
+\setlength\headheight{15pt}
+\fancyhead[L]{}
+\fancyhead[R]{}
+
+% remove abstract name
+\renewcommand{\abstractname}{}
+
+% header macro
+\newcommand{\header}[1]{
+  \thispagestyle{plain}
+  \fancyhead[C]{#1}
+}
+
+% reference style macro
+\newcommand{\referenceStyle}{
+  \pagestyle{plain}
+  \small
+  \singlespacing
+  \zeroIndent
+}
+
+% figure macro
+\newcommand{\insertFigure}[5]{
+  \vspace{0.5cm}
+  \begin{figure}[H]
+    \centering
+    \caption{#1}
+    \includegraphics[#2\textwidth]{#3}
+    \label{fig:#4}
+
+    \centering \footnotesize Fonte: #5
+  \end{figure}
+  \vspace{0.5cm}
+}
+
+% keywords command
+\providecommand{\keywords}[1]
+{
+  \vspace{0.5cm}
+  \nid \textbf{Palavras-chave:} #1.
+}
+
+% image reference macro
+\newcommand{\refBegin}{
+  \centering
+  \footnotesize
+}
+
+\newcommand{\refEnd}{
+  \normalsize
+  \justify
+}
+
+% quote macro
+\newcommand{\qtBegin}{
+  \small
+  \singlespacing
+  \zeroIndent
+}
+
+\newcommand{\qtEnd}{
+  \onehalfspacing
+  \normalsize
+  \vspace{0.5cm}
+  \oneHalfIndent
+}
+
+% abstract title macro
+\newcommand{\abstractTitle}[1]{
+  \thispagestyle{plain}
+  \zeroIndent
+  \centering
+  {\fontfamily{cmr}\textsc{\textbf{#1}}}
+  \justify
+}
+
+% page jump macro
+\newcommand{\jumpTwoPages}{
+  \newpage
+  \thispagestyle{plain}
+  \phantom{blabla}
+  \newpage
+}
+
+% university macros
+\newcommand{\ufabc}{Universidade Federal do ABC}
+\newcommand{\cecs}{Centro de Engenharia, Modelagem e Ciências Sociais Aplicadas}
+\newcommand{\economics}{Bacharelado em Ciências Econômicas}
+\newcommand{\thesisTitle}{Título da tese}
+\newcommand{\authorName}{Pedro Henrique Rocha Mendes}
+\newcommand{\city}{São Bernardo do Campo - SP}
+\newcommand{\cityDate}{\city, 1 de outubro de 2022}
+\newcommand{\advisor}{Orientador}
+\newcommand{\courseDetails}{Trabalho de Conclusão de Curso (TCC) para obtenção do grau de Bacharel em Ciências Econômicas pela Universidade Federal do ABC.}
