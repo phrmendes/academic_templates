@@ -24,30 +24,30 @@ cap-location: top
 
 <!--- cover --->
 
-```{r child = '01_cover.qmd'}
+```{r child = 'pre_sections/01_cover.qmd'}
 ```
 
 <!--- catalographic index --->
 
-```{r child = '02_cover_catalographic_index.qmd'}
+```{r child = 'pre_sections/02_cover_catalographic_index.qmd'}
 ```
 
 <!--- signatures --->
 
-```{r child = '03_signatures.qmd'}
+```{r child = 'pre_sections/03_signatures.qmd'}
 ```
 
 <!--- thanks --->
 
-```{r child = '04_thanks.qmd'}
+```{r child = 'pre_sections/04_thanks.qmd'}
 ```
 
 <!--- abstract --->
 
-```{r child = '05_abstract_pt.qmd'}
+```{r child = 'pre_sections/05_abstract_pt.qmd'}
 ```
 
-```{r child = '06_abstract_en.qmd'}
+```{r child = 'pre_sections/06_abstract_en.qmd'}
 ```
 
 <!--- list of figures --->
