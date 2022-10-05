@@ -1,13 +1,79 @@
+% packages
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
 \usepackage{setspace}
 \usepackage{ragged2e}
 \usepackage{indentfirst}
-\usepackage{abstract}
+\usepackage{fancyhdr}
 \usepackage{microtype}
 \usepackage{chngcntr}
-\usepackage[justification=centering]{caption}
-\usepackage{float}
 \usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{float}
 \usepackage{multirow}
-\usepackage{placeins}
-\renewcommand{\abstractname}{Resumo}
-\setkomafont{disposition}{\bfseries}
+\usepackage{tocloft}
+\usepackage{bold-extra}
+\usepackage{emptypage}
+\usepackage{changepage}
+
+% indentation macros
+\newcommand{\nid}{\noindent}
+\newcommand{\zeroIndent}{\setlength{\parindent}{0cm}}
+\newcommand{\oneHalfIndent}{\setlength{\parindent}{1.25cm}}
+
+% add dots to toc
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+
+% paragraph settings
+\oneHalfIndent
+\setlength{\parskip}{0.1cm}
+\onehalfspacing
+\frenchspacing
+\justifying
+
+% reference style macro
+\newcommand{\referenceStyle}{
+  \pagestyle{plain}
+  \small
+  \singlespacing
+  \zeroIndent
+}
+
+% figure macro
+\newcommand{\insertFigure}[5]{
+  \vspace{0.5cm}
+  \begin{figure}[H]
+    \centering
+    \caption{#1}
+    \includegraphics[#2\textwidth]{#3}
+    \label{fig:#4}
+
+    \centering \footnotesize Fonte: #5
+  \end{figure}
+  \vspace{0.5cm}
+}
+
+% image reference macro
+\newcommand{\refBegin}{
+  \centering
+  \footnotesize
+}
+
+\newcommand{\refEnd}{
+  \normalsize
+  \justify
+}
+
+% quote macro
+\newcommand{\qtBegin}{
+  \small
+  \singlespacing
+  \zeroIndent
+}
+
+\newcommand{\qtEnd}{
+  \onehalfspacing
+  \normalsize
+  \vspace{0.5cm}
+  \oneHalfIndent
+}
