@@ -1,0 +1,43 @@
+\input{header.tex}
+
+\begin{document}
+
+    % Cover
+    \input{sections/1_cover}
+    \thanksmarkseries{arabic}
+    \thispagestyle{empty}
+    \pagebreak
+    
+    \setlength{\parindent}{1.25cm}
+    \onehalfspacing
+    
+    % Abstract
+    \pagebreak
+    \input{sections/2_abstract}
+    \thispagestyle{empty}
+    \pagebreak
+    
+    % Table of contents
+    \singlespacing
+    \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+    \tableofcontents
+    \onehalfspacing
+    \thispagestyle{empty}
+    \pagebreak
+    
+    \section*{Introduction}
+    \addcontentsline{toc}{section}{Introduction} 
+    \input{sections/3_introduction}
+    \pagebreak
+    \section{Main body}
+    \input{sections/4_main_body}
+    \pagebreak
+    \section{Conclusion}
+    \input{sections/5_conclusion}
+    \pagebreak
+
+    \small
+    
+    % References
+    \bibliography{references.bib}
+\end{document}

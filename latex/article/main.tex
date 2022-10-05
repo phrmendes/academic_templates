@@ -1,0 +1,36 @@
+\input{header.tex}
+
+\title{Title \vspace{0.5cm}}
+\posttitle{\\ \Large{\textbf{Subtitle}}}
+
+\author{Author}
+
+\date{\vspace{-2cm}} 
+
+\begin{document}
+    \thanksmarkseries{arabic}
+    \maketitle
+    \setlength{\parindent}{1.25cm}
+    \onehalfspacing
+    
+    \begin{abstract}
+        \normalsize
+        \singlespacing
+        \noindent \lipsum[1]  
+        \vspace{0.5cm}
+        
+        \noindent \textbf{Keywords:} Lorem, ipsum, dolor.
+    \end{abstract}
+    
+    \section*{Introduction}    
+    \input{sections/1_introduction}
+    \section*{Main body}
+    \input{sections/2_main_body}
+    \section*{Conclusion}
+    \input{sections/3_conclusion}
+
+    \small
+    
+    % Referências
+    \bibliography{references.bib}
+\end{document}
