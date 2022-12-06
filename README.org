@@ -1,0 +1,3 @@
+* Academic templates
+
+Academic templates (articles, thesis and slides) made in LaTeX, Quarto and Org.
