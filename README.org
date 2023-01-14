@@ -1,3 +1,10 @@
 * Academic templates
 
 Academic templates (articles, thesis and slides) made in LaTeX and Quarto.
+
+** Requirements
+
+Using NixOS:
+
++ Quarto: ~nix-env -iA nixos.quarto~
++ Tectonic: ~nix-env -iA nixos.tectonic~

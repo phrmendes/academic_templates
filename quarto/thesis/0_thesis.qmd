@@ -1,6 +1,7 @@
 ---
 format: 
   pdf:
+    pdf-engine: tectonic
     number-sections: true
     colorlinks: true
     fig-pos: "h"

@@ -2,6 +2,7 @@
 format: 
   pdf:
     colorlinks: true
+    pdf-engine: tectonic
     fig-pos: "h"
     documentclass: scrartcl
     geometry:

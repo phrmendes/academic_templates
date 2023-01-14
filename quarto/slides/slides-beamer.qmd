@@ -5,6 +5,7 @@ author: Autor
 date: "`r format(Sys.time(), '%d %B de %Y')`"
 format: 
   beamer:
+    pdf-engine: tectonic
     aspectratio: 169
     theme: metropolis
     toc: true
