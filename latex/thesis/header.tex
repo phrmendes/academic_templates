@@ -4,19 +4,17 @@
     a4paper,
     english,
     brazil
-]{article}
+]{scrartcl}
 
+\usepackage{lmodern}
 \usepackage[alf]{abntex2cite} 
 \usepackage[brazilian,hyperpageref]{backref}
 \usepackage[lmargin=3cm,tmargin=3cm,rmargin=2cm,bmargin=2cm]{geometry}
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[brazil]{babel}
+\usepackage{fontspec}
 \usepackage{indentfirst}
 \usepackage{color}
 \usepackage{graphicx}
 \usepackage{graphics}
-\usepackage{epsfig,subfig}
 \usepackage{microtype}
 \usepackage{lipsum}
 \usepackage{setspace}
@@ -27,25 +25,27 @@
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{lscape}
 \usepackage[hang,flushmargin]{footmisc}
+\usepackage[overlay,absolute]{textpos}
 
-\newenvironment{changemargin}[2]{%
-    \begin{list}{}{%
-        \setlength{\topsep}{0pt}%
-        \setlength{\leftmargin}{#1}%
-        \setlength{\rightmargin}{#2}%
-        \setlength{\listparindent}{\parindent}%
-        \setlength{\itemindent}{\parindent}%
-        \setlength{\parsep}{\parskip}%
-    }%
+\newenvironment{changemargin}[2]{
+    \begin{list}{}{
+        \setlength{\topsep}{0pt}
+        \setlength{\leftmargin}{#1}
+        \setlength{\rightmargin}{#2}
+        \setlength{\listparindent}{\parindent}
+        \setlength{\itemindent}{\parindent}
+        \setlength{\parsep}{\parskip}
+    }
 \item[]}{\end{list}}
  
 \makeatletter
 \renewenvironment{abstract}{
     \begin{center}
-        {\bfseries \normalsize \abstractname\vspace{\z@}}
+        {\sffamily \bfseries \normalsize \abstractname\vspace{\z@}}
     \end{center}
     \quotation
 }
+
 
 {\if@twocolumn\else\endquotation\fi}
 
