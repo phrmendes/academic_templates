@@ -1,6 +1,7 @@
-title: "Title"
-subtitle: "Subtitle"
-author: "Author"
+project:
+  title: "slides"
+  render:
+    - slides.qmd
 format:
   revealjs:
     theme: simple
@@ -9,6 +10,9 @@ format:
     progress: true
     transition: slide
     slide-level: 1
+title: "Title"
+subtitle: "Subtitle"
+author: "Author"
 fontsize: 20pt
 reference-section-title: References
 lang: pt-BR
