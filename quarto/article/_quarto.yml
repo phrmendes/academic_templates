@@ -1,0 +1,39 @@
+project:
+  title: "article"
+  render:
+    - article.qmd
+format:
+  pdf:
+    colorlinks: true
+    pdf-engine: tectonic
+    fig-pos: "h"
+    documentclass: scrartcl
+    geometry:
+      - top=2.5cm
+      - bottom=2.5cm
+      - left=2.5cm
+      - right=2.5cm
+    include-in-header:
+      - header.tex
+title: |
+  \Large
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+subtitle: "Article"
+author: "Author"
+abstract: |
+  \singlespacing
+  \zeroIndent
+
+  \nid Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  \vspace{0.5cm}
+
+  **Keywords**: Lorem, Ipsum.
+fontsize: 12pt
+bibliography: references.bib
+csl: abnt.csl
+nocite: null
+lang: en-US
+link-citations: yes
+cap-location: top
