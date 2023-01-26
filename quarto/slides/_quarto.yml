@@ -1,0 +1,15 @@
+title: "Title"
+subtitle: "Subtitle"
+author: "Author"
+format:
+  revealjs:
+    theme: simple
+    footer: "Footer text"
+    slide-number: c/t
+    progress: true
+    transition: slide
+    background-transition: slide
+fontsize: 14pt
+reference-section-title: References
+lang: pt-BR
+bibliography: references.bib

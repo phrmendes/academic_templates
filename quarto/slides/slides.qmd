@@ -1,35 +1,18 @@
----
-title: Título
-subtitle: Subtítulo
-author: Autor
-date: "`r format(Sys.time(), '%d %B de %Y')`"
-format: 
-  revealjs:
-    theme: dark 
-fontsize: 14pt
-reference-section-title: Referências
-csl: abnt.csl
-lang: pt-BR
-bibliography: referencias.bib
----
-
 # Lorem ipsum dolor sit amet
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. At tempor commodo ullamcorper a lacus vestibulum. Pharetra magna ac placerat vestibulum lectus. Laoreet sit amet cursus sit amet. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt [@storm2020].
 
 # Lorem ipsum dolor sit amet
 
-![Comandos em Latex](./imagens/zotero.png){width="220"}
+![Comandos em Latex](./images/zotero.png){width="220"}
 
 # Lorem ipsum dolor sit amet
 
+```{=tex}
 \footnotesize
+```
 
-Equações:
-
-    \sigma=\sqrt{{\sum_{i=1}^n (X_{i}-\bar X)^2} \over n}
-
-Resultado:
+Equations:
 
 $$
 \sigma=\sqrt{{\sum_{i=1}^n(X_{i}-\bar X)^2} \over n}
