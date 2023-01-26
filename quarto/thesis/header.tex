@@ -15,6 +15,7 @@
 \usepackage{bold-extra}
 \usepackage{emptypage}
 \usepackage{changepage}
+\usepackage{lipsum}
 
 % indentation macros
 \newcommand{\nid}{\noindent}
@@ -43,7 +44,7 @@
 \fancyhead[R]{}
 
 % remove abstract name
-\renewcommand{\abstractname}{}
+\renewcommand{\abstractname}{\vspace{-\baselineskip}}
 
 % header macro
 \newcommand{\header}[1]{

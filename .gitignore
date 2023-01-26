@@ -1,2 +1,3 @@
 *.quarto/
+*.auctex-auto/
 quarto/slides/slides_files/libs

@@ -1,0 +1,23 @@
+```{=tex}
+\newpage
+
+\abstractTitle{Abstract}
+
+\begin{adjustwidth}{1cm}{1cm}
+  \normalsize
+  \singlespacing 
+  \selectlanguage{english}
+  
+  \nid \lipsum[1]
+  
+  \vspace{0.5cm}
+  
+  \nid \textbf{Keywords:} Lorem, ipsum
+  
+\end{adjustwidth}
+
+\oneHalfIndent
+
+\jumpTwoPages
+```
+

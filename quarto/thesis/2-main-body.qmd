@@ -1,0 +1,31 @@
+\lipsum[2]
+
+![Image](images/logo_ufabc.png){fig-align="center"}
+
+```{=tex}
+\refBegin
+```
+
+Fonte: @martinsCativeiroTerra2010
+
+```{=tex}
+\refEnd
+```
+
+\lipsum[2]
+
+```{=tex}
+\qtBegin
+```
+
+> \lipsum[2]
+
+```{=tex}
+\qtEnd
+```
+
+\lipsum[2]
+
+```{=tex}
+\newpage
+```

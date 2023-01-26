@@ -1,0 +1,27 @@
+project:
+  title: "article"
+  preview:
+    port: 4200
+  render:
+    - thesis.qmd
+format:
+  pdf:
+    pdf-engine: tectonic
+    number-sections: true
+    colorlinks: true
+    fig-pos: "H"
+    include-in-header:
+      - header.tex
+bibliography: references.bib
+csl: abnt.csl
+fontsize: 12pt
+geometry:
+  - top=3cm
+  - bottom=2cm
+  - left=3cm
+  - right=2cm
+indent: no
+nocite: null
+lang: pt-BR
+link-citations: yes
+cap-location: top

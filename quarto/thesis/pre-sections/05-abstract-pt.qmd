@@ -1,0 +1,21 @@
+```{=tex}
+\newpage
+
+\abstractTitle{Resumo}
+
+\begin{adjustwidth}{1cm}{1cm}
+  \normalsize
+  \singlespacing
+  
+  \nid \lipsum[1]
+  
+  \vspace{0.5cm}
+  
+  \nid \textbf{Palavras-chave:} Lorem, ipsum
+\end{adjustwidth}
+
+\oneHalfIndent
+
+\jumpTwoPages
+```
+

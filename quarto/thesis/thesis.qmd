@@ -1,0 +1,61 @@
+{{< include pre-sections/01-cover.qmd >}}
+{{< include pre-sections/02-cover-catalographic-index.qmd >}}
+{{< include pre-sections/03-signatures.qmd >}}
+{{< include pre-sections/04-thanks.qmd >}}
+{{< include pre-sections/05-abstract-pt.qmd >}}
+{{< include pre-sections/06-abstract-en.qmd >}}
+
+<!--- list of figures --->
+
+```{=tex}
+\listoffigures
+\jumpTwoPages
+```
+
+<!--- list of tables --->
+
+```{=tex}
+\listoftables
+\jumpTwoPages
+```
+
+<!--- table of contents --->
+
+```{=tex}
+\tableofcontents
+\jumpTwoPages
+```
+
+# Introduction {-}
+
+```{=tex}
+\pagenumbering{arabic}
+\header{Introduction}
+```
+
+{{< include 1-introduction.qmd >}}
+
+# Main body 
+
+```{=tex}
+\header{Main body}
+```
+
+{{< include 2-main-body.qmd >}}
+
+# Conclusion {-}
+
+```{=tex}
+\header{Conclusion}
+```
+
+{{< include 3-conclusion.qmd >}}
+
+# References {-}
+
+```{=tex}
+\referenceStyle
+```
+
+::: {#refs}
+:::

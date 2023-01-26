@@ -1,7 +1,3 @@
----
-output: pdf_document
----
-
 ```{=tex}
   \thispagestyle{plain}
   \centering

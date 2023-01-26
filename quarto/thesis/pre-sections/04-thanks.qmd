@@ -1,0 +1,17 @@
+```{=tex}
+\newpage
+
+\abstractTitle{Agradecimentos}
+
+\begin{adjustwidth}{1cm}{1cm}
+  \normalsize
+  \singlespacing
+  
+  \nid \lipsum[1] 
+\end{adjustwidth}
+
+\oneHalfIndent
+
+\jumpTwoPages
+```
+
