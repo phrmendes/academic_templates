@@ -1,12 +1,14 @@
-# Lorem ipsum dolor sit amet
+# Lorem ipsum dolor sit amet 1
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat in egestas erat imperdiet sed euismod nisi. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. At tempor commodo ullamcorper a lacus vestibulum. Pharetra magna ac placerat vestibulum lectus. Laoreet sit amet cursus sit amet. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt [@storm2020].
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sem lectus, luctus et gravida ac, interdum nec velit. Etiam vitae bibendum metus. Quisque ultrices nunc est, eget porta nulla feugiat at. Nulla et pharetra ex. Pellentesque urna dolor, euismod a lorem at, rutrum dignissim enim. Phasellus laoreet dolor sed porta.
 
-# Lorem ipsum dolor sit amet
+# Lorem ipsum dolor sit amet 2
 
-![Comandos em Latex](./images/zotero.png){width="220"}
+![Zotero image](./images/zotero.png){width="220"}
 
-# Lorem ipsum dolor sit amet
+# Lorem ipsum dolor sit amet 3
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sem lectus, luctus et gravida ac, interdum nec velit. Etiam vitae bibendum metus. Quisque ultrices nunc est, eget porta nulla feugiat at. Nulla et pharetra ex. Pellentesque urna dolor, euismod a lorem at, rutrum dignissim enim. Phasellus laoreet dolor sed porta. 
 
 ```{=tex}
 \footnotesize
@@ -17,3 +19,7 @@ Equations:
 $$
 \sigma=\sqrt{{\sum_{i=1}^n(X_{i}-\bar X)^2} \over n}
 $$
+
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sem lectus, luctus et gravida ac, interdum nec velit. Etiam vitae bibendum metus. Quisque ultrices nunc est, eget porta nulla feugiat at. Nulla et pharetra ex. Pellentesque urna dolor, euismod a lorem at, rutrum dignissim enim. Phasellus laoreet dolor sed porta. 
