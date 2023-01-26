@@ -2,9 +2,9 @@
 
 Academic templates (articles, thesis and slides) made in LaTeX and Quarto.
 
-** Requirements
+** Dependencies
 
-Using NixOS:
++ [[https://quarto.org/][Quarto]]
++ [[https://tectonic-typesetting.github.io/en-US/][Tectonic]]
 
-+ Quarto: ~nix-env -iA nixos.quarto~
-+ Tectonic: ~nix-env -iA nixos.tectonic~
+  To fetch dependencies using nix, run ~nix-shell~ inside the repository root.
