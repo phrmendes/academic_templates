@@ -10,6 +10,7 @@ format:
     progress: true
     transition: slide
     slide-level: 1
+    self-contained: true
 title: "Title"
 subtitle: "Subtitle"
 author: "Author"
