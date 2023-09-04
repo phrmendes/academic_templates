@@ -536,7 +536,7 @@
           <group>
             <text macro="author" suffix=". "/>
             <!--Autor-->
-            <text macro="title"/>
+            <text macro="title" suffix=". "/>
             <!--Titulo-->
             <text macro="container-contributors"/>
             <!--Nomes de editores-->
@@ -560,7 +560,7 @@
           <group>
             <text macro="author" suffix=". "/>
             <!--Autor-->
-            <text macro="title"/>
+            <text macro="title" suffix=". "/>
             <!--Titulo-->
             <text variable="publisher-place" prefix=". " suffix=": "/>
             <!--Local-->
@@ -573,7 +573,7 @@
         <else-if type="paper-conference">
           <text macro="author" suffix=". "/>
           <!--Autor-->
-          <text macro="title"/>
+          <text macro="title" suffix=". "/>
           <!--Titulo-->
           <text macro="container-contributors"/>
           <!--Nomes de editore-->
@@ -599,7 +599,7 @@
         <else>
           <text macro="author" suffix=". "/>
           <!--Autor-->
-          <text macro="title"/>
+          <text macro="title" suffix=". "/>
           <!--Titulo-->
           <text macro="container-contributors"/>
           <!--Nomes de editore-->

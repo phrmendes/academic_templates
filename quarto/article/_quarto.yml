@@ -5,20 +5,21 @@ project:
 format:
   pdf:
     colorlinks: true
-    pdf-engine: tectonic
-    fig-pos: "H"
     documentclass: scrartcl
+    fig-pos: "H"
+    keep-tex: false
+    link-citations: true
+    pdf-engine: tectonic
     geometry:
       - top=2.5cm
       - bottom=2.5cm
       - left=2.5cm
       - right=2.5cm
     include-in-header:
-      - header.tex
-title: |
-  \Large
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+      - headers/commands.tex
+      - headers/packages.tex
+      - headers/settings.tex
+title: \Large Lorem ipsum dolor sit amet
 subtitle: "Article"
 author: "Author"
 abstract: |
@@ -36,5 +37,4 @@ bibliography: references.bib
 csl: abnt.csl
 nocite: "@*"
 lang: en-US
-link-citations: yes
 cap-location: top
