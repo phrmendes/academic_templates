@@ -1,3 +1,11 @@
+# Main body
+
+```{=tex}
+\header{Main body}
+```
+
+\lipsum[2]
+
 \lipsum[2]
 
 ![Image](images/logo_ufabc.png){fig-align="center"}
@@ -6,7 +14,7 @@
 \refBegin
 ```
 
-Fonte: @martinsCativeiroTerra2010
+Fonte: @acemoglu2004 
 
 ```{=tex}
 \refEnd
@@ -26,6 +34,4 @@ Fonte: @martinsCativeiroTerra2010
 
 \lipsum[2]
 
-```{=tex}
-\newpage
-```
+{{< pagebreak >}}

@@ -1,0 +1,9 @@
+```{=tex}
+\listoffigures
+\jumpTwoPages
+\listoftables
+\jumpTwoPages
+\tableofcontents
+\jumpTwoPages
+\pagenumbering{arabic}
+```

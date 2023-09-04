@@ -6,22 +6,23 @@ project:
     - thesis.qmd
 format:
   pdf:
-    pdf-engine: tectonic
     number-sections: true
     colorlinks: true
     fig-pos: "H"
+    link-citations: true
     include-in-header:
-      - header.tex
-bibliography: references.bib
-csl: abnt.csl
+      - ./aux_files/headers/packages.tex
+      - ./aux_files/headers/commands.tex
+      - ./aux_files/headers/settings.tex
+bibliography: ./aux_files/references.bib
+csl: ./aux_files/abnt.csl
 fontsize: 12pt
 geometry:
   - top=3cm
   - bottom=2cm
   - left=3cm
   - right=2cm
-indent: no
-nocite: null
+indent: false
+nocite: "@*"
 lang: pt-BR
-link-citations: yes
 cap-location: top

@@ -7,18 +7,16 @@ format:
     colorlinks: true
     documentclass: scrartcl
     fig-pos: "H"
-    keep-tex: false
     link-citations: true
-    pdf-engine: tectonic
     geometry:
       - top=2.5cm
       - bottom=2.5cm
       - left=2.5cm
       - right=2.5cm
     include-in-header:
-      - headers/commands.tex
-      - headers/packages.tex
-      - headers/settings.tex
+      - ./aux_files/headers/packages.tex
+      - ./aux_files/headers/commands.tex
+      - ./aux_files/headers/settings.tex
 title: \Large Lorem ipsum dolor sit amet
 subtitle: "Article"
 author: "Author"
@@ -33,8 +31,8 @@ abstract: |
 
   **Keywords**: Lorem, Ipsum.
 fontsize: 12pt
-bibliography: references.bib
-csl: abnt.csl
+bibliography: ./aux_files/references.bib
+csl: ./aux_files/abnt.csl
 nocite: "@*"
 lang: en-US
 cap-location: top

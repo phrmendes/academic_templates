@@ -1,5 +1,0 @@
-\lipsum[2]
-
-```{=tex}
-\newpage
-```

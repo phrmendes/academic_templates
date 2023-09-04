@@ -1,61 +1,15 @@
-{{< include pre-sections/01-cover.qmd >}}
-{{< include pre-sections/02-cover-catalographic-index.qmd >}}
-{{< include pre-sections/03-signatures.qmd >}}
-{{< include pre-sections/04-thanks.qmd >}}
-{{< include pre-sections/05-abstract-pt.qmd >}}
-{{< include pre-sections/06-abstract-en.qmd >}}
-
-<!--- list of figures --->
-
 ```{=tex}
-\listoffigures
-\jumpTwoPages
+\thesisSettings
 ```
 
-<!--- list of tables --->
-
-```{=tex}
-\listoftables
-\jumpTwoPages
-```
-
-<!--- table of contents --->
-
-```{=tex}
-\tableofcontents
-\jumpTwoPages
-```
-
-# Introduction {-}
-
-```{=tex}
-\pagenumbering{arabic}
-\header{Introduction}
-```
-
-{{< include 1-introduction.qmd >}}
-
-# Main body 
-
-```{=tex}
-\header{Main body}
-```
-
-{{< include 2-main-body.qmd >}}
-
-# Conclusion {-}
-
-```{=tex}
-\header{Conclusion}
-```
-
-{{< include 3-conclusion.qmd >}}
-
-# References {-}
-
-```{=tex}
-\referenceStyle
-```
-
-::: {#refs}
-:::
+{{< include ./pre_sections/1_cover.qmd >}}
+{{< include ./pre_sections/2_cover_catalographic_index.qmd >}}
+{{< include ./pre_sections/3_signatures.qmd >}}
+{{< include ./pre_sections/4_thanks.qmd >}}
+{{< include ./pre_sections/5_abstract_pt.qmd >}}
+{{< include ./pre_sections/6_abstract_en.qmd >}}
+{{< include ./pre_sections/7_lists.qmd >}}
+{{< include ./sections/1_introduction.qmd >}}
+{{< include ./sections/2_main_body.qmd >}}
+{{< include ./sections/3_conclusion.qmd >}}
+{{< include ./sections/4_references.qmd >}}

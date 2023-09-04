@@ -1,23 +1,4 @@
-% packages
-\usepackage{lmodern}
-\usepackage[T1]{fontenc}
-\usepackage{setspace}
-\usepackage{ragged2e}
-\usepackage{indentfirst}
-\usepackage{fancyhdr}
-\usepackage{microtype}
-\usepackage{chngcntr}
-\usepackage{booktabs}
-\usepackage{graphicx}
-\usepackage{float}
-\usepackage{multirow}
-\usepackage{tocloft}
-\usepackage{bold-extra}
-\usepackage{emptypage}
-\usepackage{changepage}
-\usepackage{lipsum}
-
-% indentation macros
+% indentation commands
 \newcommand{\nid}{\noindent}
 \newcommand{\zeroIndent}{\setlength{\parindent}{0cm}}
 \newcommand{\oneHalfIndent}{\setlength{\parindent}{1.25cm}}
@@ -25,34 +6,16 @@
 % add dots to toc
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
 
-% continuous list (tables and images)
-\counterwithin{figure}{section}
-\counterwithin{table}{section}
-
-% paragraph settings
-\oneHalfIndent
-\setlength{\parskip}{0.1cm}
-\onehalfspacing
-\frenchspacing
-\justifying
-\pagenumbering{gobble}
-
-% headers
-\pagestyle{fancy}
-\setlength\headheight{15pt}
-\fancyhead[L]{}
-\fancyhead[R]{}
-
 % remove abstract name
 \renewcommand{\abstractname}{\vspace{-\baselineskip}}
 
-% header macro
+% header command
 \newcommand{\header}[1]{
   \thispagestyle{plain}
   \fancyhead[C]{#1}
 }
 
-% reference style macro
+% reference style command
 \newcommand{\referenceStyle}{
   \pagestyle{plain}
   \small
@@ -60,7 +23,7 @@
   \zeroIndent
 }
 
-% figure macro
+% figure command
 \newcommand{\insertFigure}[5]{
   \vspace{0.5cm}
   \begin{figure}[H]
@@ -75,13 +38,12 @@
 }
 
 % keywords command
-\providecommand{\keywords}[1]
-{
+\newcommand{\keywords}[1]{
   \vspace{0.5cm}
   \nid \textbf{Palavras-chave:} #1.
 }
 
-% image reference macro
+% image reference command
 \newcommand{\refBegin}{
   \centering
   \footnotesize
@@ -92,7 +54,7 @@
   \justify
 }
 
-% quote macro
+% quote command
 \newcommand{\qtBegin}{
   \small
   \singlespacing
@@ -106,7 +68,7 @@
   \oneHalfIndent
 }
 
-% abstract title macro
+% abstract title command
 \newcommand{\abstractTitle}[1]{
   \thispagestyle{plain}
   \zeroIndent
@@ -115,7 +77,7 @@
   \justify
 }
 
-% page jump macro
+% page jump command
 \newcommand{\jumpTwoPages}{
   \newpage
   \thispagestyle{plain}
@@ -123,7 +85,21 @@
   \newpage
 }
 
-% university macros
+% thesis settings command
+\newcommand{\thesisSettings}{
+    % continuous list (tables and images)
+    \counterwithin{figure}{section}
+    \counterwithin{table}{section}
+    % headers
+    \pagestyle{fancy}
+    \setlength\headheight{15pt}
+    \fancyhead[L]{}
+    \fancyhead[R]{}
+    % disable page numbering
+    \pagenumbering{gobble}
+}
+
+% university commands
 \newcommand{\ufabc}{Universidade Federal do ABC}
 \newcommand{\cecs}{Centro de Engenharia, Modelagem e Ciências Sociais Aplicadas}
 \newcommand{\economics}{Bacharelado em Ciências Econômicas}
