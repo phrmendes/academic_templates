@@ -1,15 +1,48 @@
+---
+bibliography: references.bib
+format: pdf
+lang: en-US
+nocite: "@*"
+---
+
 ```{=tex}
 \thesisSettings
 ```
 
-{{< include ./pre_sections/1_cover.qmd >}}
-{{< include ./pre_sections/2_cover_catalographic_index.qmd >}}
-{{< include ./pre_sections/3_signatures.qmd >}}
-{{< include ./pre_sections/4_thanks.qmd >}}
-{{< include ./pre_sections/5_abstract_pt.qmd >}}
-{{< include ./pre_sections/6_abstract_en.qmd >}}
-{{< include ./pre_sections/7_lists.qmd >}}
-{{< include ./sections/1_introduction.qmd >}}
-{{< include ./sections/2_main_body.qmd >}}
-{{< include ./sections/3_conclusion.qmd >}}
-{{< include ./sections/4_references.qmd >}}
+{{< include resources/thesis/cover.qmd >}}
+{{< include resources/thesis/catalographic_index.qmd >}}
+{{< include resources/thesis/signatures.qmd >}}
+{{< include resources/thesis/thanks.qmd >}}
+{{< include resources/thesis/abstract_pt.qmd >}}
+{{< include resources/thesis/abstract_en.qmd >}}
+{{< include resources/thesis/lists.qmd >}}
+
+# Introduction
+
+```{=tex}
+\header{Introduction}
+```
+{{< pagebreak >}}
+
+# Main body
+
+```{=tex}
+\header{Main body}
+```
+{{< pagebreak >}}
+
+
+# Conclusion
+
+```{=tex}
+\header{Conclusion}
+```
+{{< pagebreak >}}
+
+# References {-}
+
+```{=tex}
+\referenceStyle
+```
+::: {#refs}
+:::

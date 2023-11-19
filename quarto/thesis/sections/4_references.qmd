@@ -1,8 +1,0 @@
-# References {-}
-
-```{=tex}
-\referenceStyle
-```
-
-::: {#refs}
-:::

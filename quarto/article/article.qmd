@@ -1,3 +1,23 @@
+---
+title: Lorem ipsum dolor sit amet
+subtitle: "Article"
+author: "Author"
+bibliography: references.bib
+nocite: "@*"
+lang: en-US
+format: pdf
+abstract: |
+  \vspace{-1.5cm}
+  \singlespacing
+  \zeroIndent
+
+  \nid \lipsum[1]
+
+  \vspace{0.5cm}
+
+  **Keywords**: Lorem, Ipsum.
+---
+
 ```{=tex}
 \oneHalfIndent
 ```
@@ -10,7 +30,7 @@
 
 \lipsum[2]
 
-![City](./images/city.png){width="60%"}
+![City](resources/images/city.png){width="60%"}
 
 ```{=tex}
 \qtBegin

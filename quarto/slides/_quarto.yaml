@@ -1,0 +1,14 @@
+project:
+  title: "slides"
+  render:
+    - slides.qmd
+format:
+  revealjs:
+    fontsize: 20pt
+    footer: "Footer text"
+    progress: true
+    self-contained: true
+    slide-level: 1
+    slide-number: c/t
+    theme: simple
+    transition: slide

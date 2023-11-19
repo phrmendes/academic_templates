@@ -5,7 +5,7 @@
   \fontfamily{cmss}
   \selectfont
   
-  \includegraphics[width=2\textwidth]{images/logo_ufabc.png}
+  \includegraphics[width=2\textwidth]{resources/images/logo_ufabc.png}
   
   \vspace{0.5cm}
   

@@ -1,0 +1,22 @@
+project:
+  render:
+    - thesis.qmd
+format:
+  pdf:
+    number-sections: true
+    colorlinks: true
+    fig-pos: "H"
+    link-citations: true
+    cap-location: top
+    csl: abnt.csl
+    fontsize: 12pt
+    geometry:
+      - top=3cm
+      - bottom=2cm
+      - left=3cm
+      - right=2cm
+    indent: false
+    include-in-header:
+      - resources/packages.tex
+      - resources/commands.tex
+      - resources/settings.tex

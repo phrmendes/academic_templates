@@ -1,0 +1,22 @@
+project:
+  title: "article"
+  render:
+    - article.qmd
+format:
+  pdf:
+    cap-location: top
+    colorlinks: true
+    csl: abnt.csl
+    documentclass: scrartcl
+    fig-pos: "H"
+    fontsize: 12pt
+    link-citations: true
+    geometry:
+      - top=2.5cm
+      - bottom=2.5cm
+      - left=2.5cm
+      - right=2.5cm
+    include-in-header:
+      - resources/packages.tex
+      - resources/commands.tex
+      - resources/settings.tex

@@ -1,9 +1,0 @@
-# Conclusion {-}
-
-```{=tex}
-\header{Conclusion}
-```
-
-\lipsum[2]
-
-{{< pagebreak >}}

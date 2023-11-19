@@ -1,3 +1,14 @@
+---
+title: "Title"
+subtitle: "Subtitle"
+author: "Author"
+reference-section-title: References
+lang: en-US
+nocite: "@*"
+bibliography: references.bib
+format: revealjs
+---
+
 # Lorem ipsum dolor sit amet 1
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sem lectus, luctus et gravida ac, interdum nec velit. Etiam vitae bibendum metus. Quisque ultrices nunc est, eget porta nulla feugiat at. Nulla et pharetra ex. Pellentesque urna dolor, euismod a lorem at, rutrum dignissim enim. Phasellus laoreet dolor sed porta.

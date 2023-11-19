@@ -1,9 +1,0 @@
-# Introduction {-}
-
-```{=tex}
-\header{Introduction}
-```
-
-\lipsum[2]
-
-{{< pagebreak >}}
